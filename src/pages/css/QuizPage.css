@@ -1,0 +1,64 @@
+/*#2C3333
+#395B64
+#A5C9CA
+#E7F6F2*/
+body{
+   background-color:white ;
+}
+#container{
+    background-color: gray ;
+}
+#main-card{
+    background-color: whitesmoke;
+    opacity: 100%;
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+    left: 20px;
+    margin: auto;
+    /* border: solid; */
+    /* box-shadow: black 8px 8px 10px; */
+}
+.home-form{
+    position: relative;
+    background-color: inherit;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 0%;
+}
+.home-form:focus{
+    background-color: transparent;
+    outline: none;
+    outline-width: 0;
+    box-shadow: none;
+}
+#form-container{
+    margin-top: 20px;
+}
+#login-button{
+    width: 150px;
+    background-color:black ;
+    border: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+}
+#title-container{
+    padding-top: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+#button-container{
+    text-align: center;
+}
+#button-container a{
+    color: whitesmoke;
+    font-size: small;
+    text-decoration: none;
+}

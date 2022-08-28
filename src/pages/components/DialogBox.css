@@ -1,0 +1,68 @@
+.dialog-container{
+    position: absolute;
+    z-index: 3;
+    display: grid;
+    grid-template-areas: 
+    'title title'
+    'text text'
+    'button1 button2';
+    height: auto;
+    width: 300px;
+    left: 50vw;
+    top: 50vh;
+    z-index: 50;
+    transform: translate(-50%,-60%);
+    color: white;
+    background-color: darkslategray;
+    box-shadow: 0px 0px 30px 1px black ;
+}
+#dialog-title{
+    grid-area: title;
+    background-color: gray;
+    margin: 0;
+}
+#dialog-title h1{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+}
+#dialog-text{
+    grid-area: text;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    padding: 20px;
+}
+#dialog-button1{
+    grid-area: button1;
+    margin: auto;
+    width: 80%;
+    font-size: 12px;
+    height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: red;
+    line-height: 25px;
+}
+#dialog-button2{
+    grid-area: button2;
+    width: 80%;
+    font-size: 12px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    height: 25px;
+    color: black;
+    background-color: whitesmoke;
+    line-height: 25px;
+}
+
+#dialog-button1:hover{
+    cursor: pointer;
+}
+#dialog-button2:hover{
+    cursor: pointer;
+}

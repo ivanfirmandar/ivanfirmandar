@@ -1,0 +1,139 @@
+#score-container{
+    position: relative;
+    display:grid;
+    grid-template-areas: 
+    'congrat score'
+    'identity score'
+    'identity score'
+    'identity score';
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    top: 200px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: darkslategray;
+}
+/* #score-design{
+    grid-area: design;
+    background-color: #AEAEAF;  
+} */
+#score-congrat{
+    grid-area: congrat;
+    padding: 10px 20px;
+    background-color: gray;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: whitesmoke;
+    
+}
+#quotes{
+    font-style: italic;
+}
+#score-identity{
+    grid-area: identity;
+    color: whitesmoke;
+    padding: 20px;
+}
+#score-value{
+    grid-area: score;
+    padding: 20px;
+    font-size: 90px;
+    font-weight: 700;
+    color: darkslategray;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#score-value:hover{
+    cursor: pointer;
+}
+@keyframes buttonlarger{
+    from {width: 50%;}
+    to {width: 60%;}
+}
+#re-quiz{
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#re-quiz:hover{
+    cursor: pointer;
+    /* width: 60%;
+    animation-name: buttonlarger;
+    animation-duration: 1s; */
+}
+@media only screen and (max-width:768px){
+
+    #score-container{
+        position: relative;
+        display:grid;
+        grid-template-areas: 
+        'score score'
+        'congrat congrat'
+        'identity identity'
+        'identity identity'
+        'retest retest';
+        grid-template-columns: auto auto;
+        grid-template-rows: auto 40px auto auto auto;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        padding-top: 40px;
+        margin: auto;
+        background-color: darkslategray;
+    }
+    /* #score-design{
+        grid-area: design;
+        background-color: #AEAEAF;  
+    } */
+    #score-congrat{
+        grid-area: congrat;
+        padding: 10px 20px;
+        background-color: gray;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+        color: whitesmoke;
+        
+    }
+    #quotes{
+        font-style: italic;
+    }
+    #score-identity{
+        grid-area: identity;
+        color: whitesmoke;
+        padding: 20px;
+    }
+    #score-value{
+        grid-area: score;
+        padding: 20px;
+        font-size: 90px;
+        font-weight: 700;
+        color: darkslategray;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+    
+    #score-value:hover{
+        cursor: pointer;
+    }
+    #re-quiz{
+        grid-area: retest;
+        background-color: whitesmoke;
+        color: black;
+        text-align: center;
+        padding: 8px;
+        font-weight: 600;
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+
+}

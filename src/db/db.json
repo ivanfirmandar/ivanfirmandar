@@ -1,0 +1,24 @@
+{
+    "datas":[
+        {
+            "question": "Binatang yang bisa hidup di air dan di darat disebut?",
+            "option": ["Amfibi","Mamalia","Pisces","Invertebrata"],
+            "answer": "Amfibi"
+        },
+        {
+            "question": "Bagian pada kendaraan bermotor yang digunakan sebagai pembuangan gas disebut?",
+            "option": ["Jok","Knalpot","Lampu","Kopling"],
+            "answer": "Knalpot"
+        },
+        {
+            "question": "Tumbuhan berduri yang kebanyakan tumbuh pada daerah gersang seperti gurun adalah?",
+            "option": ["Jati","Mahoni","Kelapa","Kaktus"],
+            "answer": "Kaktus"
+        },
+        {
+            "question": "Ikan badut biasa berlindung dari pemangsa dengan bersembunyi di dalam?",
+            "option": ["Anemon Laut","Ketiak Paus","Ubur ubur","Budi"],
+            "answer": "Anemon Laut"
+        }
+    ]
+}
