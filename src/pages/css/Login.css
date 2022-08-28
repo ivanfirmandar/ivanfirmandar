@@ -79,22 +79,24 @@
 }
 @media only screen and (max-width:768px){
     #login-container{
-        position: absolute;
+        /* position: relative; */
         width: 100vw;
         height: 100vh;
         display: grid;
         grid-template-areas:
-        'design' 
+        'logo' 
         'title'
         'form'
         'button'
-        'logo';
-        grid-template-rows: 100px 100px 150px 40px auto;
+        'design';
+        grid-template-rows: auto 100px 150px 40px 100px;
         grid-template-columns: auto;
         background-color: gainsboro;
         padding-top: 40px;
+        margin-top: 0px;
         left: 50%;
         transform: translate(-50%,-50%);
+        box-sizing: border-box;
     }
     #login-design{
         background-color: darkslategray;
@@ -104,12 +106,13 @@
     }
     #login-logo{
         grid-area: logo;
-        position: absolute;
+        /* position: absolute; */
         bottom: 0px;
+        rotate: 90deg;
     }
     #login-logo img{
         width: 200px;
-        height: 250px;
+        height: 230px;
         bottom: 0px;
         margin-left: 20px;
     }
