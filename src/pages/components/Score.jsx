@@ -4,6 +4,7 @@ import InputGroup from 'react-bootstrap/InputGroup'
 import Form from 'react-bootstrap/Form'
 import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/esm/Button";
+import DialogBox from "./DialogBox";
 
 class Score extends React.Component{
     constructor(props){
@@ -37,6 +38,14 @@ class Score extends React.Component{
         window.sessionStorage.setItem("answer","")
         window.location = "../quiz"
     }
+    giftGiven(){
+        window.location = "../gift"
+    }
+    giftNot(){
+        console.log(document.getElementsByClassName("dialog-container"))
+        document.getElementsByClassName("dialog-container")[1].style.display = ""
+        }
+
     render(){
         console.log(this.state.score)
         console.log(this.state.kkm)
@@ -54,6 +63,9 @@ class Score extends React.Component{
                     </p>
                     <div id="re-quiz" onClick={this.goToQuiz}>
                         Ulangi kuis
+                    </div>
+                    <div id="gift-quiz" onClick={this.state.score >= this.state.kkm ? this.giftGiven : this.giftNot}>
+                        Hadiah
                     </div>
                 </div>
                 <div id="score-value">

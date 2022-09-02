@@ -1,0 +1,30 @@
+
+#love-form{
+    background-color: darkgray;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+#love-form form input{
+    text-align: center;
+    width: 80vw;
+}
+#love-form p{
+    margin-top: 5px;
+}
+#love-button{
+    background-color: darkslategray;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+#masIVan{
+    text-align: justify;
+    padding: 20px;
+    font-size: 14px;
+}
