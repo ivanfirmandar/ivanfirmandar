@@ -1,0 +1,21 @@
+#image-container{
+    width: 100vw;
+    position: absolute;
+    /* top: 40px; */
+    /* bottom: 40px; */
+    /* transform: scale(80%,80%); */
+}
+#image-container img{
+    width: 100vw;
+}
+
+@media only screen and (max-width:768px){
+    #image-container{
+        /* width: 100vw; */
+        position: absolute;
+        /* top: 40px; */
+        /* bottom: 40px; */
+        transform: scale(100%,100%);
+        /* rotate: 90deg; */
+    }
+}
