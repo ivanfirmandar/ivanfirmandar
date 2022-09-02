@@ -15,6 +15,7 @@ function App() {
         <Route path="/quiz/score" element={<ScorePage />}></Route>
         <Route path="/gift" element={<Gift />}></Route>
         <Route path="/gift/love" element={<LovePage />}></Route>
+        <Route path="/" element={<Login />}></Route>
       </Routes>
     </Router>
   );
