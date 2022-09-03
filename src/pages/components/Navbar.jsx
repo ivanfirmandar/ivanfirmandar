@@ -29,7 +29,7 @@ class NavBar extends React.Component{
             <div id="nav-container">
                 <div className="nav-content">
                     <img id="logo" src={Logo}></img>
-                    <div id="nav-title">adin.com</div>
+                    <div id="nav-title">cIE ULTAH</div>
                     <div id="logOut-button" onClick={this.showCommand}>
                         <img src={LogoutLogo} alt="" />
                         <p>LogOut</p>
