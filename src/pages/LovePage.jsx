@@ -37,7 +37,7 @@ class LovePage extends React.Component{
                     </form>
                 </div>
                 <div id="lovepage" >
-                    <h1 id="masIVan">Mas Ivan Sayang dek Adin banyak banyak banyak banyak</h1>
+                    <h1 id="masIVan"></h1>
                 </div>
                 
                 <Footer />

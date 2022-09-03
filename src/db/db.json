@@ -1,24 +1,34 @@
 {
     "datas":[
         {
-            "question": "Binatang yang bisa hidup di air dan di darat disebut?",
-            "option": ["Amfibi","Mamalia","Pisces","Invertebrata"],
-            "answer": "Amfibi"
+            "question": "[SEJARAH] Kapan dek Adin dilahirkan?",
+            "option": ["6 September 2022","Kapan-kapan","Siapa dek Adin?","Ih pertanyaan gublu"],
+            "answer": "Ih pertanyaan gublu"
         },
         {
-            "question": "Bagian pada kendaraan bermotor yang digunakan sebagai pembuangan gas disebut?",
-            "option": ["Jok","Knalpot","Lampu","Kopling"],
-            "answer": "Knalpot"
+            "question": "[MATEMATIKA] Diketahui Mas Ivan telah membeli semangka sebanyak 80 buah, kemudian Semangka itu dibagikan kepada Adik-adiknya, Jono, Budi, dan Darmono. Apabila Jono mendapatkan 2 kali jumlah Semangka Budi, dan Budi mendapatkan bijinya saja, berapakah Jumlah sayang yang didapatkan dek Adin?",
+            "option": ["10","33,3333","200","5M"],
+            "answer": "33,3333"
         },
         {
-            "question": "Tumbuhan berduri yang kebanyakan tumbuh pada daerah gersang seperti gurun adalah?",
-            "option": ["Jati","Mahoni","Kelapa","Kaktus"],
-            "answer": "Kaktus"
+            "question": "[BIOLOGI] Hasil transkripsi suatu rantai sense DNA:ACG TGG CAG  dek Adin pada saat dilahirkan adalah",
+            "option": ["UGC-ACC-GUC","Apa itu coba","Ngga peduli, yang penting dek Adin lahir","HEE-UUU-UUU"],
+            "answer": "Ngga peduli, yang penting dek Adin lahir"
         },
         {
-            "question": "Ikan badut biasa berlindung dari pemangsa dengan bersembunyi di dalam?",
-            "option": ["Anemon Laut","Ketiak Paus","Ubur ubur","Budi"],
-            "answer": "Anemon Laut"
+            "question": "[FISIKA] Apabila sebuah hati dek Adin dijatuhkan dari ketinggian 800m ke Mas Ivan, dan diketahui massa hati tersebut 20 kg. Berapa waktu yang dibutuhkan hati tersebut agar tepat jatuh di tangan mas Ivan apabila gravitasi Bumi sebesar 9,8 ms-2",
+            "option": ["22 tahun","5 detik","waktu hanyalah ilusi","sekejap saja"],
+            "answer": "22 tahun"
+        },
+        {
+            "question": "[BAHASA INGGRIS] Why dek Adin who are so cute, can't they do her there isn'it?",
+            "option": ["Yes","No","Ngga bisa bahasa enggres","Can't"],
+            "answer": "Yes"
+        },
+        {
+            "question": "[BAHASA INDONESIA] Kata yang tidak menggunakan EYD yang tepat pada kalimat berikut adalah \n 'mAs IVAN Sayang Dek adin aAaAaAaAaAaA Hepi bertdhay dEk Adiiin'",
+            "option": ["Sayang","aAaAaAaAaAaA","tepat","berthday"],
+            "answer": "aAaAaAaAaAaA"
         }
     ]
 }

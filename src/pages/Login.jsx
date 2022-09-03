@@ -8,15 +8,16 @@ import Footer from "./components/Footer";
 class Login extends React.Component{
     authLogin(){
         let myLogin = document.getElementsByClassName("form-input")
+       console.log(LoginDatas.account.length)
         for (let index = 0; index < LoginDatas.account.length; index++) {
             console.log(myLogin[0].value)
+            console.log(myLogin[1].value)
             console.log(LoginDatas.account[index])
             if (LoginDatas.account[index].id == myLogin[0].value && LoginDatas.account[index].pass == myLogin[1].value) {
                 window.sessionStorage.setItem("login",LoginDatas.account[index].id)
                 window.location = "quiz"
             }else{
                let loginInfo =  document.getElementById("login-info").innerHTML = "<p id='info-salah'>ID dan/atau Password Salah</p>"
-               loginInfo.style.backgroundColor = "red"
 
             }
             
