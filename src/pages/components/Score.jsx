@@ -32,10 +32,10 @@ class Score extends React.Component{
                 score += 1
             }
         }
-        return score/key.length *100
+        return Math.ceil(score/key.length *100)
     }
     goToQuiz(){
-        window.sessionStorage.setItem("answer","")
+	    window.sessionStorage.setItem("answer","")
         window.location = "../quiz"
     }
     giftGiven(){
