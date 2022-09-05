@@ -9,10 +9,6 @@ import Score from "./components/Score"
 import DialogBox from "./components/DialogBox";
 
 class LovePage extends React.Component{
-    constructor(props){
-        super(props)
-        this.authorization()
-    }
     sayLove(){
         let num = document.getElementsByClassName("form-input")[0].value;
         console.log(num)
