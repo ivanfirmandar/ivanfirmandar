@@ -13,11 +13,6 @@ class LovePage extends React.Component{
         super(props)
         this.authorization()
     }
-    authorization(){
-        if (window.sessionStorage.getItem("login") == null) {
-            window.location = "//"+ window.location.host + "/login"
-        }
-    }
     sayLove(){
         let num = document.getElementsByClassName("form-input")[0].value;
         console.log(num)
